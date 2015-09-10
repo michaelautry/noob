@@ -10,8 +10,11 @@ public class SMG extends Gun {
 
     // the SMG subclass has
     // one constructor
-    public SMG(int changeMagazineSize, int changeRoundType, int changeDamage, int changeRange) {
-        super(changeMagazineSize, changeRoundType, changeDamage, changeRange);
+    public SMG() {
+        int magazineSize = 30;
+        int roundType = 9;
+        int damage = 35;
+        int range = 300;
     }   
         
     // the SMG subclass has
