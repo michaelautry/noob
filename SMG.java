@@ -8,7 +8,8 @@ public int caliber;
     // the SMG subclass has
     // one constructor    
 
-public SMG(int setCaliber, int changeMagazine, int changeRange) {
+public SMG( int setCaliber, int changeMagazine, int changeRange) {
+    super(changeDamage, changeMagazine, changeRange)
         caliber = setCaliber;
 
     }           
