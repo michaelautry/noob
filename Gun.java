@@ -8,10 +8,10 @@ public class Gun {
         
     // the Gun class has
     // one constructor
-    public Gun(int startdamage, int startrounds, int startmagazine) {
-        magazine = startmagazine;
-        damage = startdamage;
-        rounds = startrounds;
+    public Gun(int loadDamage, int loadRounds, int loadMagazine) {
+        magazine = loadMagazine;
+        damage = loadDamage;
+        rounds = loadRounds;
     }
         
     // the Gun class has
