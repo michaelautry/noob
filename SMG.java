@@ -6,9 +6,9 @@ public class SMG extends Gun {
 
     // the SMG subclass has
     // one constructor
-    public SMG(int startFireRate, int startdamage,int startrounds, int startmagazine) {
-        super(startdamage, startrounds, startmagazine);
-        fireRate = startFireRate;
+    public SMG(int loadFireRate, int loadDamage,int loadRounds, int loadMagazine) {
+        super(loadDamage, loadRounds, loadMagazine);
+        fireRate = loadFireRate;
     }   
         
     // the SMG subclass has
